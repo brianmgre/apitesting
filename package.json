@@ -1,0 +1,22 @@
+{
+  "name": "apitesting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch --verbose",
+    "dev": "nodemon index.js"
+  },
+  "author": "Brian G",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.7",
+    "supertest": "^3.3.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
